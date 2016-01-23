@@ -52,17 +52,17 @@ def kwords (string, k):
 			kList[countingWords[word]] = [word]
 		elif kList[countingWords[word]]:
 			kList[countingWords[word]].append(word)
-		
+
 	for i in range(k):
 		nice = kList.pop()
 		if nice is ' '
 			i -= 1
-			continue 
+			continue
 		else:
 			print nice
 
 
-words("this this i am a gay chocolate gay gay gay gay chocolate chocolate gay chocolate")
+words("this this i am a super chocolate super super super super chocolate chocolate super chocolate")
 words("a crazy fox crazy crazy nice nice me")
-kwords("this this i am a gay chocolate gay gay gay gay chocolate chocolate gay chocolate",2)
+kwords("this this i am a super chocolate super super super super chocolate chocolate super chocolate",2)
 kwords("a crazy fox crazy crazy nice nice me", 2)
