@@ -16,5 +16,5 @@ def nonRepeatChar(arr):
 
 	return -1
 
-print nonRepeatChar("call me ishmael")
+print nonRepeatChar("honey uh blah")
 print nonRepeatChar("albus percival wulfric brian dumbledore")
