@@ -8,7 +8,6 @@ def rangeHits (arr):
 	minRange = 0
 	maxRange = 0
 	hitsRange = " "
-	skipFlag = False
 
 	arr.sort()
 
