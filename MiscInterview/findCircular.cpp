@@ -38,6 +38,6 @@ bool findCirculoar (Node *head){
 //			return True
 //		else:
 //			turtlePtr = turtlePtr.next
-//			harePtr = harePtr.nex.next 
+//			harePtr = harePtr.nex.next
 
 //		return False
