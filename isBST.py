@@ -62,3 +62,5 @@ root.insert(13)
 
 print isBST(root)
 print isBST(falsie)
+
+#O(n) time O(n) space
