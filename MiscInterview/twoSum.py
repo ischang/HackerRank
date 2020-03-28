@@ -4,20 +4,14 @@
 #number in the array
 
 def twoSum (t, arr =[]):
-	hashTable = dict()
-
-	for i in range(len(arr)):
-		hashTable[arr[i]] = i
-
-	for i in range(len(arr)):
-		difference = t-arr[i]
-
-		if difference in hashTable:
-			print hashTable[difference] 
-			print hashTable[arr[i]]
-			break
-
-	print hashTable
+        returnList = {}
+     
+        for i in range(len(nums)):
+            if target - nums[i] in required:
+                return [required[target - nums[i]],i]
+            else:
+                required[nums[i]]=i
+                print required
 
 #O(n)
 l = [1,2,3,7,6]
