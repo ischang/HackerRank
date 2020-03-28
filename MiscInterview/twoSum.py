@@ -4,14 +4,13 @@
 #number in the array
 
 def twoSum (t, arr =[]):
-        returnList = {}
+        returnDict = {}
      
         for i in range(len(nums)):
-            if target - nums[i] in required:
-                return [required[target - nums[i]],i]
+            if target - nums[i] in returnDict:
+                return [returnDict[target - nums[i]],i]
             else:
-                required[nums[i]]=i
-                print required
+                returnDict[nums[i]]=i
 
 #O(n)
 l = [1,2,3,7,6]
